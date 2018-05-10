@@ -88,6 +88,9 @@
     <Compile Include="Controllers\AccountsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MyControllerBase.cs" />
+    <Compile Include="Models\Statement.cs" />
+    <Compile Include="Models\StatementState.cs" />
+    <Compile Include="BusynessLogic\StatementStatusUpdater.cs" />
     <Compile Include="DataSource\IIkisraDataRepository.cs" />
     <Compile Include="DataSource\ISourceDbContext.cs" />
     <Compile Include="DataSource\SourceDbContext.cs" />
@@ -96,9 +99,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="WebApiConfig.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
